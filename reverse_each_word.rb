@@ -3,5 +3,5 @@ def reverse_each_word(arr)
   arr.split().collect do |w|
     new.push(w.reverse)
   end
-  new
+  new.join(" ")
 end
